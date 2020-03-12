@@ -13,7 +13,7 @@ TEST_CASE("Functions of Circle")
 
 	SECTION("Get Y Returns the correct output")
 	{
-		REQUIRE(a_Circle.get_Center().get_Y() == 4);
+		REQUIRE(a_Circle.get_Center().get_Y() == 5);
 	}
 
 	SECTION("Get Radius Returns the correct output")
