@@ -13,9 +13,5 @@ before_install:
   - sudo apt-get install catch
 
 script:
-  - mkdir build
-  - cd build
-  - cmake ..
-  - make
   - cd tests
   - ./test_all

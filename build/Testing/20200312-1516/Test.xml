@@ -21,18 +21,41 @@
 	TotalVirtualMemory="2047"
 	TotalPhysicalMemory="15951"
 	LogicalProcessorsPerPhysical="2"
-	ProcessorClockFrequency="3100"
+	ProcessorClockFrequency="3104.73"
 	>
 	<Testing>
-		<StartDateTime>Mar 12 22:16 WIB</StartDateTime>
-		<StartTestTime>1584026213</StartTestTime>
+		<StartDateTime>Mar 12 22:51 WIB</StartDateTime>
+		<StartTestTime>1584028280</StartTestTime>
 		<TestList>
-			<Test>./tests/Functions_of_Circle</Test>
 			<Test>./tests/Functions_of_Point</Test>
+			<Test>./tests/Functions_of_Circle</Test>
 			<Test>./tests/Functions_of_Square</Test>
 			<Test>./tests/Functions_of_a_rectangle</Test>
 			<Test>./tests/Functions_of_Cross</Test>
 		</TestList>
+		<Test Status="passed">
+			<Name>Functions of Point</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/Functions_of_Point</FullName>
+			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Point"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00551581</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Point"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzy8wpSS0qtlJwK81LLsnMzytWyE9TCMjPzCvhsqUu4HLMyVEoSS0uKVYoSCwuTk1R0DBSADGKIPZm5ikYguUVkhOLUzW5uADMbS0F====</Value>
+				</Measurement>
+			</Results>
+		</Test>
 		<Test Status="failed">
 			<Name>Functions of Circle</Name>
 			<Path>./tests</Path>
@@ -46,7 +69,7 @@
 					<Value>1</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00634909</Value>
+					<Value>0.00679612</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -63,36 +86,13 @@
 			</Results>
 		</Test>
 		<Test Status="passed">
-			<Name>Functions of Point</Name>
-			<Path>./tests</Path>
-			<FullName>./tests/Functions_of_Point</FullName>
-			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Point"</FullCommandLine>
-			<Results>
-				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00771999</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="numeric/double" name="Processors">
-					<Value>1</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Completion Status">
-					<Value>Completed</Value>
-				</NamedMeasurement>
-				<NamedMeasurement type="text/string" name="Command Line">
-					<Value>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Point"</Value>
-				</NamedMeasurement>
-				<Measurement>
-					<Value encoding="base64" compression="gzip">eJxzy8wpSS0qtlJwK81LLsnMzytWyE9TCMjPzCvhsqUu4HLMyVEoSS0uKVYoSCwuTk1R0DBSADGKIPZm5ikYguUVkhOLUzW5uADMbS0F====</Value>
-				</Measurement>
-			</Results>
-		</Test>
-		<Test Status="passed">
 			<Name>Functions of Square</Name>
 			<Path>./tests</Path>
 			<FullName>./tests/Functions_of_Square</FullName>
 			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Square"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00478506</Value>
+					<Value>0.00457597</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -115,7 +115,7 @@
 			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of a rectangle"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.004462</Value>
+					<Value>0.00336409</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -138,7 +138,7 @@
 			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Cross"</FullCommandLine>
 			<Results>
 				<NamedMeasurement type="numeric/double" name="Execution Time">
-					<Value>0.00369096</Value>
+					<Value>0.00352502</Value>
 				</NamedMeasurement>
 				<NamedMeasurement type="numeric/double" name="Processors">
 					<Value>1</Value>
@@ -154,8 +154,8 @@
 				</Measurement>
 			</Results>
 		</Test>
-		<EndDateTime>Mar 12 22:16 WIB</EndDateTime>
-		<EndTestTime>1584026213</EndTestTime>
+		<EndDateTime>Mar 12 22:51 WIB</EndDateTime>
+		<EndTestTime>1584028281</EndTestTime>
 		<ElapsedMinutes>0</ElapsedMinutes>
 	</Testing>
 </Site>
