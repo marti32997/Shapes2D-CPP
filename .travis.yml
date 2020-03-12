@@ -10,7 +10,8 @@ addons:
       - cmake
 
 script:
-  - cd ${TRAVIS_BUILD_DIR} && cmake ..
+  - cd build
+  - cmake ..
   - make
   - cd tests
   - ./test_all
