@@ -1,0 +1,116 @@
+Start testing: Mar 12 22:16 WIB
+----------------------------------------------------------
+2/5 Testing: Functions of Circle
+2/5 Test: Functions of Circle
+Command: "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all" "Functions of Circle"
+Directory: /home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests
+"Functions of Circle" start time: Mar 12 22:16 WIB
+Output:
+----------------------------------------------------------
+Filters: Functions of Circle
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+test_all is a Catch v2.11.1 host application.
+Run with -? for options
+
+-------------------------------------------------------------------------------
+Functions of Circle
+  Get Y Returns the correct output
+-------------------------------------------------------------------------------
+/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Circle.cpp:14
+...............................................................................
+
+/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Circle.cpp:16: FAILED:
+  REQUIRE( a_Circle.get_Center().get_Y() == 4 )
+with expansion:
+  5 == 4
+
+===============================================================================
+test cases:  1 |  0 passed | 1 failed
+assertions: 38 | 37 passed | 1 failed
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Failed.
+"Functions of Circle" end time: Mar 12 22:16 WIB
+"Functions of Circle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+1/5 Testing: Functions of Point
+1/5 Test: Functions of Point
+Command: "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all" "Functions of Point"
+Directory: /home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests
+"Functions of Point" start time: Mar 12 22:16 WIB
+Output:
+----------------------------------------------------------
+Filters: Functions of Point
+===============================================================================
+All tests passed (2 assertions in 1 test case)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"Functions of Point" end time: Mar 12 22:16 WIB
+"Functions of Point" time elapsed: 00:00:00
+----------------------------------------------------------
+
+3/5 Testing: Functions of Square
+3/5 Test: Functions of Square
+Command: "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all" "Functions of Square"
+Directory: /home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests
+"Functions of Square" start time: Mar 12 22:16 WIB
+Output:
+----------------------------------------------------------
+Filters: Functions of Square
+===============================================================================
+All tests passed (15 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Functions of Square" end time: Mar 12 22:16 WIB
+"Functions of Square" time elapsed: 00:00:00
+----------------------------------------------------------
+
+4/5 Testing: Functions of a rectangle
+4/5 Test: Functions of a rectangle
+Command: "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all" "Functions of a rectangle"
+Directory: /home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests
+"Functions of a rectangle" start time: Mar 12 22:16 WIB
+Output:
+----------------------------------------------------------
+Filters: Functions of a rectangle
+===============================================================================
+All tests passed (19 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Functions of a rectangle" end time: Mar 12 22:16 WIB
+"Functions of a rectangle" time elapsed: 00:00:00
+----------------------------------------------------------
+
+5/5 Testing: Functions of Cross
+5/5 Test: Functions of Cross
+Command: "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all" "Functions of Cross"
+Directory: /home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests
+"Functions of Cross" start time: Mar 12 22:16 WIB
+Output:
+----------------------------------------------------------
+Filters: Functions of Cross
+===============================================================================
+All tests passed (37 assertions in 1 test case)
+
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Passed.
+"Functions of Cross" end time: Mar 12 22:16 WIB
+"Functions of Cross" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 12 22:16 WIB

@@ -13,5 +13,9 @@ before_install:
   - sudo apt-get install catch
 
 script:
-  - cmake .
-  - cmake --build . -- -j2
+  - mkdir build
+  - cd build
+  - cmake ..
+  - make
+  - cd tests
+  - ./test_all

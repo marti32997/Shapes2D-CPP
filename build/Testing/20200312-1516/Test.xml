@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Linux-g++-7"
+	BuildStamp="20200312-1516-Experimental"
+	Name="Yosua-Martiansia"
+	Generator="ctest-3.10.2"
+	CompilerName="/usr/bin/g++-7"
+	CompilerVersion="7.4.0"
+	OSName="Linux"
+	Hostname="Yosua-Martiansia"
+	OSRelease="5.3.0-40-generic"
+	OSVersion="#32~18.04.1-Ubuntu SMP Mon Feb 3 14:05:59 UTC 2020"
+	OSPlatform="x86_64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="94"
+	ProcessorCacheSize="6144"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="2047"
+	TotalPhysicalMemory="15951"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3100"
+	>
+	<Testing>
+		<StartDateTime>Mar 12 22:16 WIB</StartDateTime>
+		<StartTestTime>1584026213</StartTestTime>
+		<TestList>
+			<Test>./tests/Functions_of_Circle</Test>
+			<Test>./tests/Functions_of_Point</Test>
+			<Test>./tests/Functions_of_Square</Test>
+			<Test>./tests/Functions_of_a_rectangle</Test>
+			<Test>./tests/Functions_of_Cross</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>Functions of Circle</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/Functions_of_Circle</FullName>
+			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Circle"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00634909</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Circle"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJytU8tOwzAQvO9XzLE9NCFteShShVAfqBKHEsShp8pyt8QoxJbX4SEhvh3HCE4cMwdr7dmVx7vjjWkCeymx6VodjG0F9oSl8bphoq9hQYElHFTTwAgUliroGq/TrCiyArWVAOVcY7TqhWRUdS3eTKgxucbJeliXBBJNhgX993bglgP2qDh0PjKhZmjrPesA2wXXhcFl5LV94fzDSqfynbfP8SrJH2rlWKarv2Cy3O3yvpGS1sOP3kw7VxZzyoYFDSDqIprrZnu3XpWxqdX6/nFbrUdQvzlPHNO5jS4cjdNmPxpjscAcY0rT53enWonj6evPE0W0GBbJmdBKOH4FFPgEzuCUCB9jXOCkTMNH6g98ckqJ2VVkZpf/ZNE34AL44w==</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Functions of Point</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/Functions_of_Point</FullName>
+			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Point"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00771999</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Point"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzy8wpSS0qtlJwK81LLsnMzytWyE9TCMjPzCvhsqUu4HLMyVEoSS0uKVYoSCwuTk1R0DBSADGKIPZm5ikYguUVkhOLUzW5uADMbS0F====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Functions of Square</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/Functions_of_Square</FullName>
+			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Square"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00478506</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Square"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzy8wpSS0qtlJwK81LLsnMzytWyE9TCC4sTSxK5bKlLuByzMlRKEktLilWKEgsLk5NUdAwNFUAsYogNmfmKRiCFSgkJxananJxAQA07C2g====</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Functions of a rectangle</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/Functions_of_a_rectangle</FullName>
+			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of a rectangle"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.004462</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of a rectangle"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzy8wpSS0qtlJwK81LLsnMzytWyE9TSFQoSk0uScxLz0nlsqUu4HLMyVEoSS0uKVYoSCwuTk1R0DC0VACxiiDWZ+YpGIIVKCQnFqdqcnEBAFMxL2k=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<Test Status="passed">
+			<Name>Functions of Cross</Name>
+			<Path>./tests</Path>
+			<FullName>./tests/Functions_of_Cross</FullName>
+			<FullCommandLine>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Cross"</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.00369096</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all "Functions of Cross"</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJxzy8wpSS0qtlJwK81LLsnMzytWyE9TcC7KLy7msqUu4HLMyVEoSS0uKVYoSCwuTk1R0DA2VwCxiiAWZ+YpGIIVKCQnFqdqcnEBAPZdLT0=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Mar 12 22:16 WIB</EndDateTime>
+		<EndTestTime>1584026213</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
