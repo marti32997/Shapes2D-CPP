@@ -2,6 +2,13 @@ language: cpp
 compiler: gcc
 dist: bionic
 
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - cmake
+
 script:
   - cd build && cmake ..
   - make
