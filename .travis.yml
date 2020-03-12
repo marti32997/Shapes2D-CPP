@@ -10,7 +10,6 @@ addons:
       - cmake
 
 script:
-  - cd build && cmake ..
   - make
   - cd tests
   - ./test_all
