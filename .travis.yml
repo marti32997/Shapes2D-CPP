@@ -13,5 +13,6 @@ before_install:
   - sudo apt-get install catch
 
 script:
+  - cd build
   - cd tests
   - ./test_all
