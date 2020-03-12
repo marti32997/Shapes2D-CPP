@@ -1,0 +1,172 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classPoint" kind="class" language="C++" prot="public">
+    <compoundname>Point</compoundname>
+    <includes refid="Point_8h" local="no">Point.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classPoint_1acfe156c55546f7e551fb54c7ea08a6cb" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Point::x_</definition>
+        <argsstring></argsstring>
+        <name>x_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="7" column="5" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classPoint_1ae45effa2adb0036e4a770abb9b1160e6" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Point::y_</definition>
+        <argsstring></argsstring>
+        <name>y_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="7" column="8" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point::Point</definition>
+        <argsstring>()</argsstring>
+        <name>Point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="10" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classPoint_1a9e58457c0c696c3503549c1920130ccf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point::Point</definition>
+        <argsstring>(const int &amp;x, const int &amp;y)</argsstring>
+        <name>Point</name>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="11" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp" bodystart="6" bodyend="7"/>
+      </memberdef>
+      <memberdef kind="function" id="classPoint_1af0c0f20db1616447bc78184ed537ef6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point::Point</definition>
+        <argsstring>(const Point &amp;p)</argsstring>
+        <name>Point</name>
+        <param>
+          <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="12" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp" bodystart="9" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="function" id="classPoint_1a395fa04b4ec126b66fc053f829a30cc1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Point::~Point</definition>
+        <argsstring>()</argsstring>
+        <name>~Point</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="13" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="function" id="classPoint_1a4a8d1adfb0fe3702e6645122cf84221f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const int &amp;</type>
+        <definition>const int &amp; Point::get_X</definition>
+        <argsstring>() const</argsstring>
+        <name>get_X</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="14" column="11" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classPoint_1ab36868c37d120fecc3e5e9036220ac43" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const int &amp;</type>
+        <definition>const int &amp; Point::get_Y</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Y</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="15" column="11" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp" bodystart="19" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classPoint_1a2c5b474dd81e3ce9b80b206ea32deaae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator==</definition>
+        <argsstring>(const Point &amp;p1, const Point &amp;p2)</argsstring>
+        <name>operator==</name>
+        <param>
+          <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+          <declname>p1</declname>
+        </param>
+        <param>
+          <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+          <declname>p2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="17" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp" bodystart="24" bodyend="27"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Point</label>
+        <link refid="classPoint"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" line="5" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h" bodystart="4" bodyend="18"/>
+    <listofallmembers>
+      <member refid="classPoint_1a4a8d1adfb0fe3702e6645122cf84221f" prot="public" virt="non-virtual"><scope>Point</scope><name>get_X</name></member>
+      <member refid="classPoint_1ab36868c37d120fecc3e5e9036220ac43" prot="public" virt="non-virtual"><scope>Point</scope><name>get_Y</name></member>
+      <member refid="classPoint_1a2c5b474dd81e3ce9b80b206ea32deaae" prot="public" virt="non-virtual"><scope>Point</scope><name>operator==</name></member>
+      <member refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" prot="public" virt="non-virtual"><scope>Point</scope><name>Point</name></member>
+      <member refid="classPoint_1a9e58457c0c696c3503549c1920130ccf" prot="public" virt="non-virtual"><scope>Point</scope><name>Point</name></member>
+      <member refid="classPoint_1af0c0f20db1616447bc78184ed537ef6e" prot="public" virt="non-virtual"><scope>Point</scope><name>Point</name></member>
+      <member refid="classPoint_1acfe156c55546f7e551fb54c7ea08a6cb" prot="private" virt="non-virtual"><scope>Point</scope><name>x_</name></member>
+      <member refid="classPoint_1ae45effa2adb0036e4a770abb9b1160e6" prot="private" virt="non-virtual"><scope>Point</scope><name>y_</name></member>
+      <member refid="classPoint_1a395fa04b4ec126b66fc053f829a30cc1" prot="public" virt="non-virtual"><scope>Point</scope><name>~Point</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="Point_8h" kind="file" language="C++">
+    <compoundname>Point.h</compoundname>
+    <includes local="no">iostream</includes>
+    <includedby refid="Point_8cpp" local="yes">/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp</includedby>
+    <includedby refid="Assn2_8h" local="yes">/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h</includedby>
+    <includedby refid="Shape2D_8h" local="yes">/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h</includedby>
+    <includedby refid="Circle_8h" local="yes">/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h</includedby>
+    <includedby refid="Square_8h" local="yes">/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Square.h</includedby>
+    <includedby refid="Rectangle_8h" local="yes">/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h</includedby>
+    <includedby refid="Cross_8h" local="yes">/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Cross.h</includedby>
+    <incdepgraph>
+      <node id="1">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h</label>
+        <link refid="Point_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>iostream</label>
+      </node>
+    </incdepgraph>
+    <invincdepgraph>
+      <node id="13">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp</label>
+        <link refid="Rectangle_8cpp"/>
+      </node>
+      <node id="3">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h</label>
+        <link refid="Assn2_8h"/>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+      </node>
+      <node id="11">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Square.cpp</label>
+        <link refid="Square_8cpp"/>
+      </node>
+      <node id="1">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h</label>
+        <link refid="Point_8h"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h</label>
+        <link refid="Circle_8h"/>
+        <childnode refid="9" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/main.cpp</label>
+        <link refid="main_8cpp"/>
+      </node>
+      <node id="12">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h</label>
+        <link refid="Rectangle_8h"/>
+        <childnode refid="13" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp</label>
+        <link refid="Circle_8cpp"/>
+      </node>
+      <node id="14">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Cross.h</label>
+        <link refid="Cross_8h"/>
+        <childnode refid="15" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="10">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Square.h</label>
+        <link refid="Square_8h"/>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Point.cpp</label>
+        <link refid="Point_8cpp"/>
+      </node>
+      <node id="6">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h</label>
+        <link refid="Shape2D_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="12" relation="include">
+        </childnode>
+        <childnode refid="14" relation="include">
+        </childnode>
+      </node>
+      <node id="15">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Cross.cpp</label>
+        <link refid="Cross_8cpp"/>
+      </node>
+      <node id="4">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp</label>
+        <link refid="Assn2_8cpp"/>
+      </node>
+      <node id="7">
+        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp</label>
+        <link refid="Shape2D_8cpp"/>
+      </node>
+    </invincdepgraph>
+    <innerclass refid="classPoint" prot="public">Point</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="preprocessor">#pragma<sp/>once</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&lt;iostream&gt;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4" refid="classPoint" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="classPoint" kindref="compound">Point</ref></highlight></codeline>
+<codeline lineno="5"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">private</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>x_,<sp/>y_;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">public</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" kindref="member">Point</ref>();</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" kindref="member">Point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;x,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;y);</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint_1ad92f2337b839a94ce97dcdb439b4325a" kindref="member">Point</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>&amp;p);</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="classPoint_1a395fa04b4ec126b66fc053f829a30cc1" kindref="member">~Point</ref>();</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;<ref refid="classPoint_1a4a8d1adfb0fe3702e6645122cf84221f" kindref="member">get_X</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>&amp;<ref refid="classPoint_1ab36868c37d120fecc3e5e9036220ac43" kindref="member">get_Y</ref>()<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">friend</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="classPoint_1a2c5b474dd81e3ce9b80b206ea32deaae" kindref="member">operator==</ref>(</highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>&amp;p1,<sp/></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>&amp;p2);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal">};</highlight></codeline>
+    </programlisting>
+    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Point.h"/>
+  </compounddef>
+</doxygen>

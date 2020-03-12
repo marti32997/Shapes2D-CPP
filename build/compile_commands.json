@@ -1,0 +1,102 @@
+[
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/main.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/main.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/main.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/Assn2.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/Point.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Point.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Point.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/Shape2D.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/Circle.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/Square.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Square.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Square.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/Rectangle.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/csci251_a2.exe.dir/Cross.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/Point.dir/Point.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Point.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Point.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -o CMakeFiles/Circle.dir/Circle.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include  -g   -o CMakeFiles/Shape2D.dir/Shape2D.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -o CMakeFiles/Square.dir/Square.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Square.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Square.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -o CMakeFiles/Rectangle.dir/Rectangle.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/src",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -o CMakeFiles/Cross.dir/Cross.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -isystem /usr/local/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -std=gnu++11 -o CMakeFiles/test_all.dir/catch_main.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/catch_main.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/catch_main.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -isystem /usr/local/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -std=gnu++11 -o CMakeFiles/test_all.dir/test_Point.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Point.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Point.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -isystem /usr/local/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -std=gnu++11 -o CMakeFiles/test_all.dir/test_Circle.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Circle.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Circle.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -isystem /usr/local/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -std=gnu++11 -o CMakeFiles/test_all.dir/test_Square.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Square.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Square.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -isystem /usr/local/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -std=gnu++11 -o CMakeFiles/test_all.dir/test_Rectangle.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Rectangle.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Rectangle.cpp"
+},
+{
+  "directory": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests",
+  "command": "/usr/bin/g++-7   -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include -isystem /usr/local/include -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/src -I/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/tests  -g   -std=gnu++11 -o CMakeFiles/test_all.dir/test_Cross.cpp.o -c /home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Cross.cpp",
+  "file": "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/tests/test_Cross.cpp"
+}
+]

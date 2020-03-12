@@ -1,0 +1,6 @@
+Functions of Point 1 0.00712681
+Functions of Circle 1 0.00596499
+Functions of Square 1 0.00498581
+Functions of a rectangle 1 0.00727296
+Functions of Cross 1 0.00472403
+---

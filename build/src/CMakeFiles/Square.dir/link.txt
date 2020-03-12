@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSquare.a  CMakeFiles/Square.dir/Square.cpp.o
+/usr/bin/ranlib libSquare.a

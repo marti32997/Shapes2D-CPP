@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classRectangle" kind="class" language="C++" prot="public">
+    <compoundname>Rectangle</compoundname>
+    <basecompoundref refid="classShape2D" prot="public" virt="non-virtual">Shape2D</basecompoundref>
+    <includes refid="Rectangle_8h" local="no">Rectangle.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classRectangle_1a455270731210b69c46062c967af79a1e" prot="private" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="classPoint" kindref="compound">Point</ref>, 4 &gt;</type>
+        <definition>std::array&lt;Point, 4&gt; Rectangle::vertices_</definition>
+        <argsstring></argsstring>
+        <name>vertices_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="14" column="12" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classRectangle_1aa262f27d26faccb958bc76914d03aac8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Rectangle::Rectangle</definition>
+        <argsstring>(const std::array&lt; Point, 4 &gt; &amp;vertices, const bool &amp;warp_space)</argsstring>
+        <name>Rectangle</name>
+        <param>
+          <type>const std::array&lt; <ref refid="classPoint" kindref="compound">Point</ref>, 4 &gt; &amp;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>warp_space</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="17" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="3" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a494c076b13aadf26efdce07d23c61ddd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Rectangle::~Rectangle</definition>
+        <argsstring>()</argsstring>
+        <name>~Rectangle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="18" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1aa649af7838fd373234787370157af883" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string Rectangle::to_String</definition>
+        <argsstring>() override</argsstring>
+        <name>to_String</name>
+        <reimplements refid="classShape2D_1a5faf0eb79a8888bfcf464d8263e6f9c0">to_String</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="20" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="13" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1ad57c870bd976425a3ee6d864d717ba1c" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Rectangle::compute_Area</definition>
+        <argsstring>() override</argsstring>
+        <name>compute_Area</name>
+        <reimplements refid="classShape2D_1aecc2a1ad58aa7cbb1c0b77f886ac2748">compute_Area</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="22" column="8" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1ac8ae97a5cfe524a6c26073f5b291279e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Rectangle::is_Point_In_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const override</argsstring>
+        <name>is_Point_In_Shape</name>
+        <reimplements refid="classShape2D_1aa12cf337c1d3c383a20d6894fa3b0e50">is_Point_In_Shape</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="23" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="39" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a206f330579f215196321eb09293ae13e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Rectangle::is_Point_On_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const override</argsstring>
+        <name>is_Point_On_Shape</name>
+        <reimplements refid="classShape2D_1a65c202854d606f3e8e7c1651a55c5011">is_Point_On_Shape</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="24" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="48" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a8f3e54c37aa0b851cb62ab1a126852f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Rectangle::get_All_Point_In_Shape</definition>
+        <argsstring>() override</argsstring>
+        <name>get_All_Point_In_Shape</name>
+        <reimplements refid="classShape2D_1a2e391ae2f92e6b3686c6bafbc2d5bcc2">get_All_Point_In_Shape</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="26" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="60" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a4384559c55f8500477c029021e9176e0" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Rectangle::get_All_Point_On_Shape</definition>
+        <argsstring>() override</argsstring>
+        <name>get_All_Point_On_Shape</name>
+        <reimplements refid="classShape2D_1a40137c7300edef4b7995ef69fff0cf70">get_All_Point_On_Shape</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="27" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="73" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1ae4c6c74853964dd3e09037f897effa88" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Rectangle::get_Vertex_0</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="29" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="87" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1abf35238a5c794856c15b660c957110be" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Rectangle::get_Vertex_1</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="30" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="88" bodyend="88"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a61b3e42224fc25c090266e3d901cae29" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Rectangle::get_Vertex_2</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="31" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="89" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="classRectangle_1a0dbde587370b65a1f8de15a4f69a0f3b" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Rectangle::get_Vertex_3</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="32" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp" bodystart="90" bodyend="90"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>Rectangle</label>
+        <link refid="classRectangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Rectangle</label>
+        <link refid="classRectangle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" line="12" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Rectangle.h" bodystart="11" bodyend="33"/>
+    <listofallmembers>
+      <member refid="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" virt="non-virtual"><scope>Rectangle</scope><name>area_</name></member>
+      <member refid="classRectangle_1ad57c870bd976425a3ee6d864d717ba1c" prot="public" virt="virtual"><scope>Rectangle</scope><name>compute_Area</name></member>
+      <member refid="classShape2D_1a0c6678a0a167c049475a42af34102133" prot="protected" virt="non-virtual"><scope>Rectangle</scope><name>contain_warp_space_</name></member>
+      <member refid="classRectangle_1a8f3e54c37aa0b851cb62ab1a126852f6" prot="public" virt="virtual"><scope>Rectangle</scope><name>get_All_Point_In_Shape</name></member>
+      <member refid="classRectangle_1a4384559c55f8500477c029021e9176e0" prot="public" virt="virtual"><scope>Rectangle</scope><name>get_All_Point_On_Shape</name></member>
+      <member refid="classShape2D_1a9840d085b9611368d448586eef575e79" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Area</name></member>
+      <member refid="classShape2D_1a266f289038ce2773e3b07e1f65a3554f" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1afec5ff2e6fdded2cce71ac6055aaf8c3" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Name</name></member>
+      <member refid="classShape2D_1a235032fe16ff6fb1d656f4c2a46eb92b" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Points_On_Perimeter</name></member>
+      <member refid="classShape2D_1a7641fc1234a362eed8636f8237f37af4" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Points_Within_Shape</name></member>
+      <member refid="classRectangle_1ae4c6c74853964dd3e09037f897effa88" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Vertex_0</name></member>
+      <member refid="classRectangle_1abf35238a5c794856c15b660c957110be" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Vertex_1</name></member>
+      <member refid="classRectangle_1a61b3e42224fc25c090266e3d901cae29" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Vertex_2</name></member>
+      <member refid="classRectangle_1a0dbde587370b65a1f8de15a4f69a0f3b" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>get_Vertex_3</name></member>
+      <member refid="classRectangle_1ac8ae97a5cfe524a6c26073f5b291279e" prot="public" virt="virtual"><scope>Rectangle</scope><name>is_Point_In_Shape</name></member>
+      <member refid="classRectangle_1a206f330579f215196321eb09293ae13e" prot="public" virt="virtual"><scope>Rectangle</scope><name>is_Point_On_Shape</name></member>
+      <member refid="classShape2D_1ae8fda04a211cc4bd942f223ac029cf77" prot="protected" virt="non-virtual"><scope>Rectangle</scope><name>name_</name></member>
+      <member refid="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" virt="non-virtual"><scope>Rectangle</scope><name>points_on_perimeter_</name></member>
+      <member refid="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" virt="non-virtual"><scope>Rectangle</scope><name>points_within_shape_</name></member>
+      <member refid="classRectangle_1aa262f27d26faccb958bc76914d03aac8" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>Rectangle</name></member>
+      <member refid="classShape2D_1aa5fcb9450facc954f7c541085bbc8873" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>set_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1a190a12392eb9685a449fe688ea44bffa" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>set_Name</name></member>
+      <member refid="classShape2D_1ab87994852407650ad4766c1ecb13c070" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>Shape2D</name></member>
+      <member refid="classRectangle_1aa649af7838fd373234787370157af883" prot="public" virt="virtual"><scope>Rectangle</scope><name>to_String</name></member>
+      <member refid="classRectangle_1a455270731210b69c46062c967af79a1e" prot="private" virt="non-virtual"><scope>Rectangle</scope><name>vertices_</name></member>
+      <member refid="classRectangle_1a494c076b13aadf26efdce07d23c61ddd" prot="public" virt="non-virtual"><scope>Rectangle</scope><name>~Rectangle</name></member>
+      <member refid="classShape2D_1a43df0afde2f1d356dee5b24f946a33fe" prot="public" virt="virtual"><scope>Rectangle</scope><name>~Shape2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
