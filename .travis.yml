@@ -15,4 +15,4 @@ before_install:
 script:
   - cd build
   - cd tests
-  - ./test_all
+  - ctest -j2 ./test_all
