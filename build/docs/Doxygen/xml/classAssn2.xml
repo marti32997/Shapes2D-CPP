@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="22" column="5" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" bodystart="22" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="22" column="5" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" bodystart="22" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classAssn2_1af882a5f37f3030163bd358fe2be6d430" prot="public" static="no" mutable="no">
         <type>std::vector&lt; std::unique_ptr&lt; <ref refid="classShape2D" kindref="compound">Shape2D</ref> &gt; &gt;</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="24" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" bodystart="24" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="24" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" bodystart="24" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -44,7 +44,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="26" column="5" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="4" bodyend="44"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="26" column="5" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="4" bodyend="44"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1afa820b7f6739e613efe71349b7b8162b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="27" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="47" bodyend="85"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="27" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="47" bodyend="85"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1a080ffb688574ae87c8a823313287874e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -74,7 +74,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="29" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="90" bodyend="112"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="29" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="90" bodyend="112"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1a6f3c890b6f4a6652e16c750370eb40af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -91,7 +91,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="30" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="114" bodyend="140"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="30" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="114" bodyend="140"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1a5af82f33ac115282d0a7e2b7da528b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="31" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="142" bodyend="168"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="31" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="142" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1afb336e0e4341b26975b0ea18802db898" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -125,7 +125,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="32" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="170" bodyend="196"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="32" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="170" bodyend="196"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1a92d1d4aa65d160b102539145e47be334" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="34" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="199" bodyend="204"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="34" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="199" bodyend="204"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1a0ef82f0b978b2f649e26b51c75e72941" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -151,7 +151,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="35" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="214" bodyend="260"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="35" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="214" bodyend="260"/>
       </memberdef>
       <memberdef kind="function" id="classAssn2_1acfab0e5b90303cadd1c3a4e5f53dbdad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>void</type>
@@ -164,7 +164,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="36" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Assn2.cpp" bodystart="263" bodyend="301"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="36" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Assn2.cpp" bodystart="263" bodyend="301"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -177,7 +177,7 @@
         <link refid="classAssn2"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" line="20" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Assn2.h" bodystart="19" bodyend="37"/>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" line="20" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Assn2.h" bodystart="19" bodyend="37"/>
     <listofallmembers>
       <member refid="classAssn2_1a92d1d4aa65d160b102539145e47be334" prot="public" virt="non-virtual"><scope>Assn2</scope><name>compute_Area_For_All</name></member>
       <member refid="classAssn2_1a080ffb688574ae87c8a823313287874e" prot="public" virt="non-virtual"><scope>Assn2</scope><name>construct_Circle</name></member>

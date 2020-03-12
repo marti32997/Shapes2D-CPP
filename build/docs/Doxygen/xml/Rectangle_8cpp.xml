@@ -5,9 +5,21 @@
     <includes refid="Rectangle_8h" local="yes">Rectangle.h</includes>
     <incdepgraph>
       <node id="1">
-        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp</label>
+        <label>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.cpp</label>
         <link refid="Rectangle_8cpp"/>
         <childnode refid="2" relation="include">
+        </childnode>
+      </node>
+      <node id="9">
+        <label>Shape2D.h</label>
+        <link refid="Shape2D_8h"/>
+        <childnode refid="10" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="11" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="3">
@@ -16,20 +28,23 @@
       <node id="10">
         <label>string</label>
       </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
       <node id="7">
         <label>Point.h</label>
         <link refid="Point_8h"/>
         <childnode refid="8" relation="include">
         </childnode>
       </node>
-      <node id="6">
-        <label>vector</label>
-      </node>
       <node id="5">
         <label>array</label>
       </node>
       <node id="4">
         <label>sstream</label>
+      </node>
+      <node id="8">
+        <label>iostream</label>
       </node>
       <node id="2">
         <label>Rectangle.h</label>
@@ -45,21 +60,6 @@
         <childnode refid="7" relation="include">
         </childnode>
         <childnode refid="9" relation="include">
-        </childnode>
-      </node>
-      <node id="8">
-        <label>iostream</label>
-      </node>
-      <node id="9">
-        <label>Shape2D.h</label>
-        <link refid="Shape2D_8h"/>
-        <childnode refid="10" relation="include">
-        </childnode>
-        <childnode refid="6" relation="include">
-        </childnode>
-        <childnode refid="11" relation="include">
-        </childnode>
-        <childnode refid="7" relation="include">
         </childnode>
       </node>
       <node id="11">
@@ -162,6 +162,6 @@
 <codeline lineno="89"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>&amp;<ref refid="classRectangle_1a61b3e42224fc25c090266e3d901cae29" kindref="member">Rectangle::get_Vertex_2</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;vertices_[2];<sp/>}</highlight></codeline>
 <codeline lineno="90"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>&amp;<ref refid="classRectangle_1a0dbde587370b65a1f8de15a4f69a0f3b" kindref="member">Rectangle::get_Vertex_3</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;vertices_[3];<sp/>}</highlight></codeline>
     </programlisting>
-    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Rectangle.cpp"/>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.cpp"/>
   </compounddef>
 </doxygen>

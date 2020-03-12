@@ -4,35 +4,11 @@
     <compoundname>Square.cpp</compoundname>
     <includes refid="Square_8h" local="yes">Square.h</includes>
     <incdepgraph>
-      <node id="3">
-        <label>cmath</label>
-      </node>
       <node id="1">
-        <label>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Square.cpp</label>
+        <label>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Square.cpp</label>
         <link refid="Square_8cpp"/>
         <childnode refid="2" relation="include">
         </childnode>
-      </node>
-      <node id="10">
-        <label>string</label>
-      </node>
-      <node id="7">
-        <label>Point.h</label>
-        <link refid="Point_8h"/>
-        <childnode refid="8" relation="include">
-        </childnode>
-      </node>
-      <node id="6">
-        <label>vector</label>
-      </node>
-      <node id="5">
-        <label>array</label>
-      </node>
-      <node id="4">
-        <label>sstream</label>
-      </node>
-      <node id="8">
-        <label>iostream</label>
       </node>
       <node id="2">
         <label>Square.h</label>
@@ -61,6 +37,30 @@
         </childnode>
         <childnode refid="7" relation="include">
         </childnode>
+      </node>
+      <node id="3">
+        <label>cmath</label>
+      </node>
+      <node id="10">
+        <label>string</label>
+      </node>
+      <node id="6">
+        <label>vector</label>
+      </node>
+      <node id="7">
+        <label>Point.h</label>
+        <link refid="Point_8h"/>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>array</label>
+      </node>
+      <node id="4">
+        <label>sstream</label>
+      </node>
+      <node id="8">
+        <label>iostream</label>
       </node>
       <node id="11">
         <label>memory</label>
@@ -165,6 +165,6 @@
 <codeline lineno="92"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>&amp;<ref refid="classSquare_1ae5801539a26aedbff730b5ce1169913f" kindref="member">Square::get_Vertex_2</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;vertices_[2];<sp/>}</highlight></codeline>
 <codeline lineno="93"><highlight class="normal"></highlight><highlight class="keyword">const</highlight><highlight class="normal"><sp/><ref refid="classPoint" kindref="compound">Point</ref><sp/>&amp;<ref refid="classSquare_1a1fb45db4430560de033c558062a87499" kindref="member">Square::get_Vertex_3</ref>()</highlight><highlight class="keyword"><sp/>const<sp/></highlight><highlight class="normal">{<sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/>this-&gt;vertices_[3];<sp/>}</highlight></codeline>
     </programlisting>
-    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Square.cpp"/>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Square.cpp"/>
   </compounddef>
 </doxygen>

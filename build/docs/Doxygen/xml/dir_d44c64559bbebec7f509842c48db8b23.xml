@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
   <compounddef id="dir_d44c64559bbebec7f509842c48db8b23" kind="dir">
-    <compoundname>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include</compoundname>
+    <compoundname>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include</compoundname>
     <innerfile refid="Assn2_8h">Assn2.h</innerfile>
     <innerfile refid="Circle_8h">Circle.h</innerfile>
     <innerfile refid="Cross_8h">Cross.h</innerfile>
@@ -13,6 +13,6 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/"/>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/"/>
   </compounddef>
 </doxygen>

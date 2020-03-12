@@ -19,7 +19,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="11" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" bodystart="11" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="11" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="11" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classShape2D_1a0c6678a0a167c049475a42af34102133" prot="protected" static="no" mutable="no">
         <type>bool</type>
@@ -32,7 +32,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="12" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" bodystart="12" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="12" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="12" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" static="no" mutable="no">
         <type>double</type>
@@ -45,7 +45,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="13" column="8" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="13" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -58,7 +58,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="15" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" bodystart="15" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="15" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="15" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" static="no" mutable="no">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -71,7 +71,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="16" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="16" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="19" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="3" bodyend="4"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="19" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="3" bodyend="4"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a43df0afde2f1d356dee5b24f946a33fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type></type>
@@ -107,7 +107,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="20" column="9" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="6" bodyend="6"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="20" column="9" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="6" bodyend="6"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1afec5ff2e6fdded2cce71ac6055aaf8c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>std::string</type>
@@ -120,7 +120,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="22" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="8" bodyend="11"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="22" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="8" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a266f289038ce2773e3b07e1f65a3554f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>bool</type>
@@ -133,7 +133,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="23" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="18" bodyend="21"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="23" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="18" bodyend="21"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a9840d085b9611368d448586eef575e79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>double</type>
@@ -146,7 +146,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="24" column="8" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="13" bodyend="16"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="24" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="13" bodyend="16"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a7641fc1234a362eed8636f8237f37af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -159,7 +159,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="25" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="23" bodyend="26"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="25" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="23" bodyend="26"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a235032fe16ff6fb1d656f4c2a46eb92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -172,7 +172,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="26" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="28" bodyend="31"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="26" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="28" bodyend="31"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a5faf0eb79a8888bfcf464d8263e6f9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::string</type>
@@ -189,7 +189,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="28" column="21"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="28" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1aecc2a1ad58aa7cbb1c0b77f886ac2748" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>double</type>
@@ -206,7 +206,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="30" column="16"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="30" column="16"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1aa12cf337c1d3c383a20d6894fa3b0e50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -231,7 +231,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="31" column="14"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="31" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a65c202854d606f3e8e7c1651a55c5011" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
         <type>bool</type>
@@ -256,7 +256,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="32" column="14"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="32" column="14"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a2e391ae2f92e6b3686c6bafbc2d5bcc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -273,7 +273,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="34" column="21"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="34" column="21"/>
       </memberdef>
       <memberdef kind="function" id="classShape2D_1a40137c7300edef4b7995ef69fff0cf70" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -290,11 +290,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="35" column="21"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="35" column="21"/>
       </memberdef>
-      <memberdef kind="function" id="classShape2D_1a190a12392eb9685a449fe688ea44bffa" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
-        <definition>std::vector&lt; Point &gt; Shape2D::set_Name</definition>
+      <memberdef kind="function" id="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape2D::set_Name</definition>
         <argsstring>(const std::string &amp;name)</argsstring>
         <name>set_Name</name>
         <param>
@@ -307,11 +307,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="37" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="33" bodyend="36"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="37" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="33" bodyend="36"/>
       </memberdef>
-      <memberdef kind="function" id="classShape2D_1aa5fcb9450facc954f7c541085bbc8873" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
-        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
-        <definition>std::vector&lt; Point &gt; Shape2D::set_Contain_Warp_Space</definition>
+      <memberdef kind="function" id="classShape2D_1a0241e6cbd093607ad412ae080f511727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape2D::set_Contain_Warp_Space</definition>
         <argsstring>(const bool &amp;contain_Warp_Space)</argsstring>
         <name>set_Contain_Warp_Space</name>
         <param>
@@ -324,7 +324,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="38" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="38" bodyend="41"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="38" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="38" bodyend="41"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="friend">
@@ -347,7 +347,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="40" column="8" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="43" bodyend="46"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="40" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="43" bodyend="46"/>
       </memberdef>
       <memberdef kind="friend" id="classShape2D_1a2618ec7736a28bb245cc7542bf272f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>friend bool</type>
@@ -368,7 +368,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="41" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Shape2D.cpp" bodystart="48" bodyend="51"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="41" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="48" bodyend="51"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -411,7 +411,7 @@
         <link refid="classShape2D"/>
       </node>
     </collaborationgraph>
-    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" line="9" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Shape2D.h" bodystart="8" bodyend="42"/>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="9" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="8" bodyend="42"/>
     <listofallmembers>
       <member refid="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>area_</name></member>
       <member refid="classShape2D_1aecc2a1ad58aa7cbb1c0b77f886ac2748" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>compute_Area</name></member>
@@ -430,8 +430,8 @@
       <member refid="classShape2D_1a2618ec7736a28bb245cc7542bf272f4f" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>operator&gt;</name></member>
       <member refid="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>points_on_perimeter_</name></member>
       <member refid="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>points_within_shape_</name></member>
-      <member refid="classShape2D_1aa5fcb9450facc954f7c541085bbc8873" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>set_Contain_Warp_Space</name></member>
-      <member refid="classShape2D_1a190a12392eb9685a449fe688ea44bffa" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>set_Name</name></member>
+      <member refid="classShape2D_1a0241e6cbd093607ad412ae080f511727" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>set_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>set_Name</name></member>
       <member refid="classShape2D_1ab87994852407650ad4766c1ecb13c070" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>Shape2D</name></member>
       <member refid="classShape2D_1a5faf0eb79a8888bfcf464d8263e6f9c0" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>to_String</name></member>
       <member refid="classShape2D_1a43df0afde2f1d356dee5b24f946a33fe" prot="public" virt="virtual"><scope>Shape2D</scope><name>~Shape2D</name></member>

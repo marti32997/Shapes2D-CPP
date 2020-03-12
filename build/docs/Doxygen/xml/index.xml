@@ -95,8 +95,8 @@
     <member refid="classShape2D_1a65c202854d606f3e8e7c1651a55c5011" kind="function"><name>is_Point_On_Shape</name></member>
     <member refid="classShape2D_1a2e391ae2f92e6b3686c6bafbc2d5bcc2" kind="function"><name>get_All_Point_In_Shape</name></member>
     <member refid="classShape2D_1a40137c7300edef4b7995ef69fff0cf70" kind="function"><name>get_All_Point_On_Shape</name></member>
-    <member refid="classShape2D_1a190a12392eb9685a449fe688ea44bffa" kind="function"><name>set_Name</name></member>
-    <member refid="classShape2D_1aa5fcb9450facc954f7c541085bbc8873" kind="function"><name>set_Contain_Warp_Space</name></member>
+    <member refid="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" kind="function"><name>set_Name</name></member>
+    <member refid="classShape2D_1a0241e6cbd093607ad412ae080f511727" kind="function"><name>set_Contain_Warp_Space</name></member>
     <member refid="classShape2D_1afe6bf89183e199c9d64046318783c921" kind="friend"><name>operator&lt;</name></member>
     <member refid="classShape2D_1a2618ec7736a28bb245cc7542bf272f4f" kind="friend"><name>operator&gt;</name></member>
   </compound>
@@ -152,8 +152,8 @@
   </compound>
   <compound refid="Square_8cpp" kind="file"><name>Square.cpp</name>
   </compound>
-  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include</name>
+  <compound refid="dir_d44c64559bbebec7f509842c48db8b23" kind="dir"><name>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include</name>
   </compound>
-  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src</name>
+  <compound refid="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir"><name>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src</name>
   </compound>
 </doxygenindex>

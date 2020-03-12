@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['set_5fcontain_5fwarp_5fspace_61',['set_Contain_Warp_Space',['../classShape2D.html#aa5fcb9450facc954f7c541085bbc8873',1,'Shape2D']]],
-  ['set_5fname_62',['set_Name',['../classShape2D.html#a190a12392eb9685a449fe688ea44bffa',1,'Shape2D']]],
+  ['set_5fcontain_5fwarp_5fspace_61',['set_Contain_Warp_Space',['../classShape2D.html#a0241e6cbd093607ad412ae080f511727',1,'Shape2D']]],
+  ['set_5fname_62',['set_Name',['../classShape2D.html#a21d194e4d1f3df3d3933cdf70c36eba2',1,'Shape2D']]],
   ['shape2d_63',['Shape2D',['../classShape2D.html',1,'Shape2D'],['../classShape2D.html#ab87994852407650ad4766c1ecb13c070',1,'Shape2D::Shape2D()']]],
   ['shape2d_2ecpp_64',['Shape2D.cpp',['../Shape2D_8cpp.html',1,'']]],
   ['shape2d_2eh_65',['Shape2D.h',['../Shape2D_8h.html',1,'']]],

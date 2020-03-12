@@ -16,7 +16,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="16" column="7" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" bodystart="16" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="16" column="7" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" bodystart="16" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classCircle_1aec2ebe62263c1d340432a9bf89b79da0" prot="private" static="no" mutable="no">
         <type>double</type>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="17" column="8" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" bodystart="17" bodyend="-1"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="17" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" bodystart="17" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -83,7 +83,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="28" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="3" bodyend="9"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="28" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="3" bodyend="9"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1ae3f30436e645d73e368e8ee55f8d1650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -96,7 +96,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="29" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="11" bodyend="11"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="29" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="11" bodyend="11"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1ad0b89f7f448988dc03bd1c06e4ca8648" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::string</type>
@@ -114,7 +114,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="36" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="13" bodyend="24"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="36" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="13" bodyend="24"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1a582c07962124bdf2d31276b5b31a6d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>double</type>
@@ -132,7 +132,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="43" column="8" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="26" bodyend="29"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="43" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="26" bodyend="29"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1a16fdd2eefa910dabb700a1ee3334f14e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -177,7 +177,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="53" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="31" bodyend="37"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="53" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="31" bodyend="37"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1afceae3553d3711850f17d96ccf909392" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
         <type>bool</type>
@@ -222,7 +222,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="63" column="6" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="39" bodyend="48"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="63" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="39" bodyend="48"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1a1beee16aa785bee1af18a0799cb5b744" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -240,7 +240,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="70" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="50" bodyend="62"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="70" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="50" bodyend="62"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1a5a6b4b594946596226cea13173664b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
         <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
@@ -258,7 +258,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="77" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="64" bodyend="76"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="77" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="64" bodyend="76"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1afc3f3fa3be213b3836638d2f49b70a4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const double &amp;</type>
@@ -275,7 +275,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="84" column="14" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="79" bodyend="79"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="84" column="14" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="79" bodyend="79"/>
       </memberdef>
       <memberdef kind="function" id="classCircle_1a6628441738586792064935b7ed718966" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
         <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
@@ -292,7 +292,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="91" column="13" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/src/Circle.cpp" bodystart="78" bodyend="78"/>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="91" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="78" bodyend="78"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -324,7 +324,7 @@ For this constructor to be called, the user must type in <ref refid="classCircle
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" line="14" column="1" bodyfile="/home/yosua/Projects/CSCI251/A2/Shapes2D/C++/include/Circle.h" bodystart="13" bodyend="92"/>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="14" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" bodystart="13" bodyend="92"/>
     <listofallmembers>
       <member refid="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" virt="non-virtual"><scope>Circle</scope><name>area_</name></member>
       <member refid="classCircle_1a48df023bd15aa6a29a397b70733d0da9" prot="private" virt="non-virtual"><scope>Circle</scope><name>center_</name></member>
@@ -346,8 +346,8 @@ For this constructor to be called, the user must type in <ref refid="classCircle
       <member refid="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" virt="non-virtual"><scope>Circle</scope><name>points_on_perimeter_</name></member>
       <member refid="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" virt="non-virtual"><scope>Circle</scope><name>points_within_shape_</name></member>
       <member refid="classCircle_1aec2ebe62263c1d340432a9bf89b79da0" prot="private" virt="non-virtual"><scope>Circle</scope><name>r_</name></member>
-      <member refid="classShape2D_1aa5fcb9450facc954f7c541085bbc8873" prot="public" virt="non-virtual"><scope>Circle</scope><name>set_Contain_Warp_Space</name></member>
-      <member refid="classShape2D_1a190a12392eb9685a449fe688ea44bffa" prot="public" virt="non-virtual"><scope>Circle</scope><name>set_Name</name></member>
+      <member refid="classShape2D_1a0241e6cbd093607ad412ae080f511727" prot="public" virt="non-virtual"><scope>Circle</scope><name>set_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" prot="public" virt="non-virtual"><scope>Circle</scope><name>set_Name</name></member>
       <member refid="classShape2D_1ab87994852407650ad4766c1ecb13c070" prot="public" virt="non-virtual"><scope>Circle</scope><name>Shape2D</name></member>
       <member refid="classCircle_1ad0b89f7f448988dc03bd1c06e4ca8648" prot="public" virt="virtual"><scope>Circle</scope><name>to_String</name></member>
       <member refid="classCircle_1ae3f30436e645d73e368e8ee55f8d1650" prot="public" virt="non-virtual"><scope>Circle</scope><name>~Circle</name></member>
