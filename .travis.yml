@@ -1,8 +1,9 @@
 language: cpp
 compiler: gcc
+dist: bionic
 
 script:
   - cd build && cmake ..
   - make
-  - cd src
-  - ./csci251_a2.exe
+  - cd tests
+  - ./test_all
