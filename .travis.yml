@@ -1,0 +1,8 @@
+language: cpp
+compiler: gcc
+
+script:
+  - cd build && cmake ..
+  - make
+  - cd src
+  - ./csci251_a2.exe
