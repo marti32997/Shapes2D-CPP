@@ -1,2 +1,0 @@
-/usr/bin/ar qc libShape_2D.a  CMakeFiles/Shape_2D.dir/Shape_2D.cpp.o
-/usr/bin/ranlib libShape_2D.a

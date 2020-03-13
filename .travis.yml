@@ -15,4 +15,4 @@ before_install:
 script:
   - cd build
   - cd tests
-  - ctest -j2 ./test_all
+  - CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 ./test_all
