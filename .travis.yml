@@ -9,8 +9,11 @@ addons:
     packages:
       - cmake
 
-before_install:
-  - sudo apt-get install catch
+install:
+  - git clone https://github.com/catchorg/Catch2.git
+  - cd Catch2
+  - cmake -Bbuild -H. _DBUILD_TESTING=OFF
+  - sudo cmake --build build/ --target install
 
 script:
   - mkdir build && cd build
