@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/csci251_a2.exe.dir/main.cpp.o CMakeFiles/csci251_a2.exe.dir/Assn2.cpp.o CMakeFiles/csci251_a2.exe.dir/Point.cpp.o CMakeFiles/csci251_a2.exe.dir/Shape2D.cpp.o CMakeFiles/csci251_a2.exe.dir/Circle.cpp.o CMakeFiles/csci251_a2.exe.dir/Square.cpp.o CMakeFiles/csci251_a2.exe.dir/Rectangle.cpp.o CMakeFiles/csci251_a2.exe.dir/Cross.cpp.o  -o csci251_a2.exe 
