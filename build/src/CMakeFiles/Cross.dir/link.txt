@@ -1,0 +1,2 @@
+/usr/bin/ar qc libCross.a  CMakeFiles/Cross.dir/Cross.cpp.o
+/usr/bin/ranlib libCross.a

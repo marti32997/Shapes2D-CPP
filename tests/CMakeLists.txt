@@ -1,4 +1,4 @@
-# find_package(Catch2 REQUIRED)
+find_package(Catch2 REQUIRED)
 
 add_executable(test_all
 	catch_main.cpp

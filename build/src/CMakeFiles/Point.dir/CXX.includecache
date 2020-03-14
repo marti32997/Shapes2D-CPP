@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Point.h
+iostream
+-
+
+/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Point.cpp
+Point.h
+/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Point.h
+
