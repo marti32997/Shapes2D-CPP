@@ -1,5 +1,0 @@
-if(EXISTS "/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all_tests-b858cb2.cmake")
-  include("/home/yosua/Projects/Shapes2D/Shapes2D-CPP/build/tests/test_all_tests-b858cb2.cmake")
-else()
-  add_test(test_all_NOT_BUILT-b858cb2 test_all_NOT_BUILT-b858cb2)
-endif()
