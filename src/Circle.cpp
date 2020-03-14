@@ -4,7 +4,7 @@ Circle::Circle(const Point& center, const double& r, const bool& warp_space)
 	: Shape2D("Circle", warp_space), center_(center), r_(r)
 {
 	area_ = compute_Area();
-	points_within_shape_ = get_All_Point_In_Shape(;
+	points_within_shape_ = get_All_Point_In_Shape();
 	points_on_perimeter_ = get_All_Point_On_Shape();
 }
 
