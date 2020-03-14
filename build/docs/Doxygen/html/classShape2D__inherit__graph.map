@@ -1,0 +1,7 @@
+<map id="Shape2D" name="Shape2D">
+<area shape="rect" id="node1" title=" " alt="" coords="317,5,512,347"/>
+<area shape="rect" id="node2" href="$classCircle.html" title="A class which represents a circle, containing the radius, and a center Point." alt="" coords="5,409,192,619"/>
+<area shape="rect" id="node3" href="$classCross.html" title=" " alt="" coords="216,402,403,626"/>
+<area shape="rect" id="node4" href="$classRectangle.html" title=" " alt="" coords="427,395,613,633"/>
+<area shape="rect" id="node5" href="$classSquare.html" title=" " alt="" coords="637,395,824,633"/>
+</map>

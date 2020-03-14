@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Point.h
+iostream
+-
+
+../include/Rectangle.h
+cmath
+-
+sstream
+-
+array
+-
+vector
+-
+Point.h
+../include/Point.h
+Shape2D.h
+../include/Shape2D.h
+
+../include/Shape2D.h
+string
+-
+vector
+-
+memory
+-
+Point.h
+../include/Point.h
+
+/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.cpp
+Rectangle.h
+/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Rectangle.h
+

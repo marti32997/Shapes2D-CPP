@@ -1,0 +1,381 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classCross" kind="class" language="C++" prot="public">
+    <compoundname>Cross</compoundname>
+    <basecompoundref refid="classShape2D" prot="public" virt="non-virtual">Shape2D</basecompoundref>
+    <includes refid="Cross_8h" local="no">Cross.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCross_1a5044d63925986b3c9c81d92df1e64501" prot="private" static="no" mutable="no">
+        <type>std::array&lt; <ref refid="classPoint" kindref="compound">Point</ref>, 12 &gt;</type>
+        <definition>std::array&lt;Point, 12&gt; Cross::vertices_</definition>
+        <argsstring></argsstring>
+        <name>vertices_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="14" column="12" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCross_1afea59918dad0b372013b64a44d565011" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Cross::Cross</definition>
+        <argsstring>(const std::array&lt; Point, 12 &gt; &amp;vertices, const bool &amp;warp_space)</argsstring>
+        <name>Cross</name>
+        <param>
+          <type>const std::array&lt; <ref refid="classPoint" kindref="compound">Point</ref>, 12 &gt; &amp;</type>
+          <declname>vertices</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>warp_space</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="17" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="3" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a0dd66e9fa5bb40f003c9651bc89b52ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Cross::~Cross</definition>
+        <argsstring>()</argsstring>
+        <name>~Cross</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="18" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1af4fdc4be4b0ab401f1bc8e54cec748ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string Cross::to_String</definition>
+        <argsstring>() override</argsstring>
+        <name>to_String</name>
+        <reimplements refid="classShape2D_1a5faf0eb79a8888bfcf464d8263e6f9c0">to_String</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="20" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="13" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1aaabc848a55e4c8234dc64da0e650d781" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Cross::compute_Area</definition>
+        <argsstring>() override</argsstring>
+        <name>compute_Area</name>
+        <reimplements refid="classShape2D_1aecc2a1ad58aa7cbb1c0b77f886ac2748">compute_Area</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="22" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="32" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a91965ea6be0d5511e946def6ab9f950a" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Cross::is_Point_In_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const override</argsstring>
+        <name>is_Point_In_Shape</name>
+        <reimplements refid="classShape2D_1aa12cf337c1d3c383a20d6894fa3b0e50">is_Point_In_Shape</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="23" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a86cce2ebb9625d61e68e16e872003a51" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Cross::is_Point_On_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const override</argsstring>
+        <name>is_Point_On_Shape</name>
+        <reimplements refid="classShape2D_1a65c202854d606f3e8e7c1651a55c5011">is_Point_On_Shape</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="24" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="67" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1ab7c84529a26bc140ff34e9105f62e80f" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Cross::get_All_Point_In_Shape</definition>
+        <argsstring>() override</argsstring>
+        <name>get_All_Point_In_Shape</name>
+        <reimplements refid="classShape2D_1a2e391ae2f92e6b3686c6bafbc2d5bcc2">get_All_Point_In_Shape</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="26" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="87" bodyend="99"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a5acb3670b94f88f980f25b087ffad579" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Cross::get_All_Point_On_Shape</definition>
+        <argsstring>() override</argsstring>
+        <name>get_All_Point_On_Shape</name>
+        <reimplements refid="classShape2D_1a40137c7300edef4b7995ef69fff0cf70">get_All_Point_On_Shape</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="27" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="101" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a94e96427ebd50d8e21875a6fdd05bb80" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_0</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="29" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="115" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a3882718f5f11007bf5882502e6bf4170" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_1</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="30" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="116" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a0157da4981fddc06ffe87e7c689697ea" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_2</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="31" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="117" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a2809bdbb081e0db8280c66f274276234" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_3</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="32" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="118" bodyend="118"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a25ca09d8d4b153789836186d8dfd8208" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_4</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="33" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="119" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1adebdf14d932d31888946d3722571c52e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_5</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_5</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="34" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="120" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a7c7a26d37528b14e3fe562587598ab6e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_6</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_6</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="35" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="121" bodyend="121"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1ae0ee097fcac8b5b4c6b54138e8eeea09" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_7</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_7</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="36" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="122" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a86e97ba7ceef5f095a285aa61b85940d" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_8</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_8</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="37" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="123" bodyend="123"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a948d15523dd05ef05053b4c0c10b4e2c" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_9</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_9</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="38" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="124" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a2e49be393ed748ae7c656855e9af7fcd" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_10</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_10</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="39" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="125" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="classCross_1a56f19fb71ca977088d0bb85181e0ed39" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Cross::get_Vertex_11</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Vertex_11</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="40" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Cross.cpp" bodystart="126" bodyend="126"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+      <node id="1">
+        <label>Cross</label>
+        <link refid="classCross"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+      <node id="1">
+        <label>Cross</label>
+        <link refid="classCross"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" line="12" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Cross.h" bodystart="11" bodyend="41"/>
+    <listofallmembers>
+      <member refid="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" virt="non-virtual"><scope>Cross</scope><name>area_</name></member>
+      <member refid="classCross_1aaabc848a55e4c8234dc64da0e650d781" prot="public" virt="virtual"><scope>Cross</scope><name>compute_Area</name></member>
+      <member refid="classShape2D_1a0c6678a0a167c049475a42af34102133" prot="protected" virt="non-virtual"><scope>Cross</scope><name>contain_warp_space_</name></member>
+      <member refid="classCross_1afea59918dad0b372013b64a44d565011" prot="public" virt="non-virtual"><scope>Cross</scope><name>Cross</name></member>
+      <member refid="classCross_1ab7c84529a26bc140ff34e9105f62e80f" prot="public" virt="virtual"><scope>Cross</scope><name>get_All_Point_In_Shape</name></member>
+      <member refid="classCross_1a5acb3670b94f88f980f25b087ffad579" prot="public" virt="virtual"><scope>Cross</scope><name>get_All_Point_On_Shape</name></member>
+      <member refid="classShape2D_1a9840d085b9611368d448586eef575e79" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Area</name></member>
+      <member refid="classShape2D_1a266f289038ce2773e3b07e1f65a3554f" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1afec5ff2e6fdded2cce71ac6055aaf8c3" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Name</name></member>
+      <member refid="classShape2D_1a235032fe16ff6fb1d656f4c2a46eb92b" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Points_On_Perimeter</name></member>
+      <member refid="classShape2D_1a7641fc1234a362eed8636f8237f37af4" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Points_Within_Shape</name></member>
+      <member refid="classCross_1a94e96427ebd50d8e21875a6fdd05bb80" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_0</name></member>
+      <member refid="classCross_1a3882718f5f11007bf5882502e6bf4170" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_1</name></member>
+      <member refid="classCross_1a2e49be393ed748ae7c656855e9af7fcd" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_10</name></member>
+      <member refid="classCross_1a56f19fb71ca977088d0bb85181e0ed39" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_11</name></member>
+      <member refid="classCross_1a0157da4981fddc06ffe87e7c689697ea" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_2</name></member>
+      <member refid="classCross_1a2809bdbb081e0db8280c66f274276234" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_3</name></member>
+      <member refid="classCross_1a25ca09d8d4b153789836186d8dfd8208" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_4</name></member>
+      <member refid="classCross_1adebdf14d932d31888946d3722571c52e" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_5</name></member>
+      <member refid="classCross_1a7c7a26d37528b14e3fe562587598ab6e" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_6</name></member>
+      <member refid="classCross_1ae0ee097fcac8b5b4c6b54138e8eeea09" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_7</name></member>
+      <member refid="classCross_1a86e97ba7ceef5f095a285aa61b85940d" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_8</name></member>
+      <member refid="classCross_1a948d15523dd05ef05053b4c0c10b4e2c" prot="public" virt="non-virtual"><scope>Cross</scope><name>get_Vertex_9</name></member>
+      <member refid="classCross_1a91965ea6be0d5511e946def6ab9f950a" prot="public" virt="virtual"><scope>Cross</scope><name>is_Point_In_Shape</name></member>
+      <member refid="classCross_1a86cce2ebb9625d61e68e16e872003a51" prot="public" virt="virtual"><scope>Cross</scope><name>is_Point_On_Shape</name></member>
+      <member refid="classShape2D_1ae8fda04a211cc4bd942f223ac029cf77" prot="protected" virt="non-virtual"><scope>Cross</scope><name>name_</name></member>
+      <member refid="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" virt="non-virtual"><scope>Cross</scope><name>points_on_perimeter_</name></member>
+      <member refid="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" virt="non-virtual"><scope>Cross</scope><name>points_within_shape_</name></member>
+      <member refid="classShape2D_1a0241e6cbd093607ad412ae080f511727" prot="public" virt="non-virtual"><scope>Cross</scope><name>set_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" prot="public" virt="non-virtual"><scope>Cross</scope><name>set_Name</name></member>
+      <member refid="classShape2D_1ab87994852407650ad4766c1ecb13c070" prot="public" virt="non-virtual"><scope>Cross</scope><name>Shape2D</name></member>
+      <member refid="classCross_1af4fdc4be4b0ab401f1bc8e54cec748ff" prot="public" virt="virtual"><scope>Cross</scope><name>to_String</name></member>
+      <member refid="classCross_1a5044d63925986b3c9c81d92df1e64501" prot="private" virt="non-virtual"><scope>Cross</scope><name>vertices_</name></member>
+      <member refid="classCross_1a0dd66e9fa5bb40f003c9651bc89b52ff" prot="public" virt="non-virtual"><scope>Cross</scope><name>~Cross</name></member>
+      <member refid="classShape2D_1a43df0afde2f1d356dee5b24f946a33fe" prot="public" virt="virtual"><scope>Cross</scope><name>~Shape2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

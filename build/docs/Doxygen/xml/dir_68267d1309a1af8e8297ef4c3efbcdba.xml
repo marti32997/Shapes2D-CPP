@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="dir_68267d1309a1af8e8297ef4c3efbcdba" kind="dir">
+    <compoundname>/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src</compoundname>
+    <innerfile refid="Assn2_8cpp">Assn2.cpp</innerfile>
+    <innerfile refid="Circle_8cpp">Circle.cpp</innerfile>
+    <innerfile refid="Cross_8cpp">Cross.cpp</innerfile>
+    <innerfile refid="main_8cpp">main.cpp</innerfile>
+    <innerfile refid="Point_8cpp">Point.cpp</innerfile>
+    <innerfile refid="Rectangle_8cpp">Rectangle.cpp</innerfile>
+    <innerfile refid="Shape2D_8cpp">Shape2D.cpp</innerfile>
+    <innerfile refid="Square_8cpp">Square.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/"/>
+  </compounddef>
+</doxygen>

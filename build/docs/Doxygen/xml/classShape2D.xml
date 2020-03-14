@@ -1,0 +1,440 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classShape2D" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>Shape2D</compoundname>
+    <derivedcompoundref refid="classCircle" prot="public" virt="non-virtual">Circle</derivedcompoundref>
+    <derivedcompoundref refid="classCross" prot="public" virt="non-virtual">Cross</derivedcompoundref>
+    <derivedcompoundref refid="classRectangle" prot="public" virt="non-virtual">Rectangle</derivedcompoundref>
+    <derivedcompoundref refid="classSquare" prot="public" virt="non-virtual">Square</derivedcompoundref>
+    <includes refid="Shape2D_8h" local="no">Shape2D.h</includes>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="classShape2D_1ae8fda04a211cc4bd942f223ac029cf77" prot="protected" static="no" mutable="no">
+        <type>std::string</type>
+        <definition>std::string Shape2D::name_</definition>
+        <argsstring></argsstring>
+        <name>name_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="11" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classShape2D_1a0c6678a0a167c049475a42af34102133" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Shape2D::contain_warp_space_</definition>
+        <argsstring></argsstring>
+        <name>contain_warp_space_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="12" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Shape2D::area_</definition>
+        <argsstring></argsstring>
+        <name>area_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="13" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt;Point&gt; Shape2D::points_within_shape_</definition>
+        <argsstring></argsstring>
+        <name>points_within_shape_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="15" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" static="no" mutable="no">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt;Point&gt; Shape2D::points_on_perimeter_</definition>
+        <argsstring></argsstring>
+        <name>points_on_perimeter_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="16" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classShape2D_1ab87994852407650ad4766c1ecb13c070" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Shape2D::Shape2D</definition>
+        <argsstring>(const std::string &amp;name, const bool &amp;contain_Warp_Space)</argsstring>
+        <name>Shape2D</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>contain_Warp_Space</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="19" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="3" bodyend="4"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a43df0afde2f1d356dee5b24f946a33fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>Shape2D::~Shape2D</definition>
+        <argsstring>()</argsstring>
+        <name>~Shape2D</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="20" column="9" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="6" bodyend="6"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1afec5ff2e6fdded2cce71ac6055aaf8c3" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>std::string</type>
+        <definition>std::string Shape2D::get_Name</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="22" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a266f289038ce2773e3b07e1f65a3554f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Shape2D::get_Contain_Warp_Space</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Contain_Warp_Space</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="23" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a9840d085b9611368d448586eef575e79" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>double Shape2D::get_Area</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="24" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a7641fc1234a362eed8636f8237f37af4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Shape2D::get_Points_Within_Shape</definition>
+        <argsstring>()</argsstring>
+        <name>get_Points_Within_Shape</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="25" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a235032fe16ff6fb1d656f4c2a46eb92b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Shape2D::get_Points_On_Perimeter</definition>
+        <argsstring>()</argsstring>
+        <name>get_Points_On_Perimeter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="26" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="28" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a5faf0eb79a8888bfcf464d8263e6f9c0" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::string</type>
+        <definition>virtual std::string Shape2D::to_String</definition>
+        <argsstring>()=0</argsstring>
+        <name>to_String</name>
+        <reimplementedby refid="classSquare_1a5a15733c4d4054f874631cc48b88b5b9">to_String</reimplementedby>
+        <reimplementedby refid="classRectangle_1aa649af7838fd373234787370157af883">to_String</reimplementedby>
+        <reimplementedby refid="classCross_1af4fdc4be4b0ab401f1bc8e54cec748ff">to_String</reimplementedby>
+        <reimplementedby refid="classCircle_1ad0b89f7f448988dc03bd1c06e4ca8648">to_String</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="28" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1aecc2a1ad58aa7cbb1c0b77f886ac2748" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>double</type>
+        <definition>virtual double Shape2D::compute_Area</definition>
+        <argsstring>()=0</argsstring>
+        <name>compute_Area</name>
+        <reimplementedby refid="classSquare_1a48b228fedc03dc7780041552bf24fad0">compute_Area</reimplementedby>
+        <reimplementedby refid="classRectangle_1ad57c870bd976425a3ee6d864d717ba1c">compute_Area</reimplementedby>
+        <reimplementedby refid="classCross_1aaabc848a55e4c8234dc64da0e650d781">compute_Area</reimplementedby>
+        <reimplementedby refid="classCircle_1a582c07962124bdf2d31276b5b31a6d8e">compute_Area</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="30" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1aa12cf337c1d3c383a20d6894fa3b0e50" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Shape2D::is_Point_In_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const =0</argsstring>
+        <name>is_Point_In_Shape</name>
+        <reimplementedby refid="classSquare_1a0de65a5192d5c08956adb4cd73550af1">is_Point_In_Shape</reimplementedby>
+        <reimplementedby refid="classRectangle_1ac8ae97a5cfe524a6c26073f5b291279e">is_Point_In_Shape</reimplementedby>
+        <reimplementedby refid="classCross_1a91965ea6be0d5511e946def6ab9f950a">is_Point_In_Shape</reimplementedby>
+        <reimplementedby refid="classCircle_1a16fdd2eefa910dabb700a1ee3334f14e">is_Point_In_Shape</reimplementedby>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="31" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a65c202854d606f3e8e7c1651a55c5011" prot="public" static="no" const="yes" explicit="no" inline="no" virt="pure-virtual">
+        <type>bool</type>
+        <definition>virtual bool Shape2D::is_Point_On_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const =0</argsstring>
+        <name>is_Point_On_Shape</name>
+        <reimplementedby refid="classSquare_1a765da90cc8b087d8f183e6b26bf65bc1">is_Point_On_Shape</reimplementedby>
+        <reimplementedby refid="classRectangle_1a206f330579f215196321eb09293ae13e">is_Point_On_Shape</reimplementedby>
+        <reimplementedby refid="classCross_1a86cce2ebb9625d61e68e16e872003a51">is_Point_On_Shape</reimplementedby>
+        <reimplementedby refid="classCircle_1afceae3553d3711850f17d96ccf909392">is_Point_On_Shape</reimplementedby>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="32" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a2e391ae2f92e6b3686c6bafbc2d5bcc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>virtual std::vector&lt;Point&gt; Shape2D::get_All_Point_In_Shape</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_All_Point_In_Shape</name>
+        <reimplementedby refid="classSquare_1a3b60abd177002540140a76bd09ce866d">get_All_Point_In_Shape</reimplementedby>
+        <reimplementedby refid="classRectangle_1a8f3e54c37aa0b851cb62ab1a126852f6">get_All_Point_In_Shape</reimplementedby>
+        <reimplementedby refid="classCross_1ab7c84529a26bc140ff34e9105f62e80f">get_All_Point_In_Shape</reimplementedby>
+        <reimplementedby refid="classCircle_1a1beee16aa785bee1af18a0799cb5b744">get_All_Point_In_Shape</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="34" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a40137c7300edef4b7995ef69fff0cf70" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>virtual std::vector&lt;Point&gt; Shape2D::get_All_Point_On_Shape</definition>
+        <argsstring>()=0</argsstring>
+        <name>get_All_Point_On_Shape</name>
+        <reimplementedby refid="classSquare_1a44e923bbb978827dc286da11a9be8ba9">get_All_Point_On_Shape</reimplementedby>
+        <reimplementedby refid="classRectangle_1a4384559c55f8500477c029021e9176e0">get_All_Point_On_Shape</reimplementedby>
+        <reimplementedby refid="classCross_1a5acb3670b94f88f980f25b087ffad579">get_All_Point_On_Shape</reimplementedby>
+        <reimplementedby refid="classCircle_1a5a6b4b594946596226cea13173664b52">get_All_Point_On_Shape</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="35" column="21"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape2D::set_Name</definition>
+        <argsstring>(const std::string &amp;name)</argsstring>
+        <name>set_Name</name>
+        <param>
+          <type>const std::string &amp;</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="37" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="classShape2D_1a0241e6cbd093607ad412ae080f511727" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void Shape2D::set_Contain_Warp_Space</definition>
+        <argsstring>(const bool &amp;contain_Warp_Space)</argsstring>
+        <name>set_Contain_Warp_Space</name>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>contain_Warp_Space</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="38" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="38" bodyend="41"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="friend">
+      <memberdef kind="friend" id="classShape2D_1afe6bf89183e199c9d64046318783c921" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator&lt;</definition>
+        <argsstring>(const std::unique_ptr&lt; Shape2D &gt; &amp;s1, const std::unique_ptr&lt; Shape2D &gt; &amp;s2)</argsstring>
+        <name>operator&lt;</name>
+        <param>
+          <type>const std::unique_ptr&lt; <ref refid="classShape2D" kindref="compound">Shape2D</ref> &gt; &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const std::unique_ptr&lt; <ref refid="classShape2D" kindref="compound">Shape2D</ref> &gt; &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="40" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="43" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="friend" id="classShape2D_1a2618ec7736a28bb245cc7542bf272f4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>friend bool</type>
+        <definition>bool operator&gt;</definition>
+        <argsstring>(const std::unique_ptr&lt; Shape2D &gt; &amp;s1, const std::unique_ptr&lt; Shape2D &gt; &amp;s2)</argsstring>
+        <name>operator&gt;</name>
+        <param>
+          <type>const std::unique_ptr&lt; <ref refid="classShape2D" kindref="compound">Shape2D</ref> &gt; &amp;</type>
+          <declname>s1</declname>
+        </param>
+        <param>
+          <type>const std::unique_ptr&lt; <ref refid="classShape2D" kindref="compound">Shape2D</ref> &gt; &amp;</type>
+          <declname>s2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="41" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Shape2D.cpp" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="4">
+        <label>Rectangle</label>
+        <link refid="classRectangle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+      <node id="5">
+        <label>Square</label>
+        <link refid="classSquare"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Circle</label>
+        <link refid="classCircle"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Cross</label>
+        <link refid="classCross"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" line="9" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Shape2D.h" bodystart="8" bodyend="42"/>
+    <listofallmembers>
+      <member refid="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>area_</name></member>
+      <member refid="classShape2D_1aecc2a1ad58aa7cbb1c0b77f886ac2748" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>compute_Area</name></member>
+      <member refid="classShape2D_1a0c6678a0a167c049475a42af34102133" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>contain_warp_space_</name></member>
+      <member refid="classShape2D_1a2e391ae2f92e6b3686c6bafbc2d5bcc2" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>get_All_Point_In_Shape</name></member>
+      <member refid="classShape2D_1a40137c7300edef4b7995ef69fff0cf70" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>get_All_Point_On_Shape</name></member>
+      <member refid="classShape2D_1a9840d085b9611368d448586eef575e79" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>get_Area</name></member>
+      <member refid="classShape2D_1a266f289038ce2773e3b07e1f65a3554f" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>get_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1afec5ff2e6fdded2cce71ac6055aaf8c3" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>get_Name</name></member>
+      <member refid="classShape2D_1a235032fe16ff6fb1d656f4c2a46eb92b" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>get_Points_On_Perimeter</name></member>
+      <member refid="classShape2D_1a7641fc1234a362eed8636f8237f37af4" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>get_Points_Within_Shape</name></member>
+      <member refid="classShape2D_1aa12cf337c1d3c383a20d6894fa3b0e50" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>is_Point_In_Shape</name></member>
+      <member refid="classShape2D_1a65c202854d606f3e8e7c1651a55c5011" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>is_Point_On_Shape</name></member>
+      <member refid="classShape2D_1ae8fda04a211cc4bd942f223ac029cf77" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>name_</name></member>
+      <member refid="classShape2D_1afe6bf89183e199c9d64046318783c921" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>operator&lt;</name></member>
+      <member refid="classShape2D_1a2618ec7736a28bb245cc7542bf272f4f" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>operator&gt;</name></member>
+      <member refid="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>points_on_perimeter_</name></member>
+      <member refid="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" virt="non-virtual"><scope>Shape2D</scope><name>points_within_shape_</name></member>
+      <member refid="classShape2D_1a0241e6cbd093607ad412ae080f511727" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>set_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>set_Name</name></member>
+      <member refid="classShape2D_1ab87994852407650ad4766c1ecb13c070" prot="public" virt="non-virtual"><scope>Shape2D</scope><name>Shape2D</name></member>
+      <member refid="classShape2D_1a5faf0eb79a8888bfcf464d8263e6f9c0" prot="public" virt="pure-virtual"><scope>Shape2D</scope><name>to_String</name></member>
+      <member refid="classShape2D_1a43df0afde2f1d356dee5b24f946a33fe" prot="public" virt="virtual"><scope>Shape2D</scope><name>~Shape2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

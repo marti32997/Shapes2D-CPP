@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.18">
+  <compounddef id="classCircle" kind="class" language="C++" prot="public">
+    <compoundname>Circle</compoundname>
+    <basecompoundref refid="classShape2D" prot="public" virt="non-virtual">Shape2D</basecompoundref>
+    <includes refid="Circle_8h" local="no">Circle.h</includes>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="classCircle_1a48df023bd15aa6a29a397b70733d0da9" prot="private" static="no" mutable="no">
+        <type><ref refid="classPoint" kindref="compound">Point</ref></type>
+        <definition>Point Circle::center_</definition>
+        <argsstring></argsstring>
+        <name>center_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="16" column="7" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classCircle_1aec2ebe62263c1d340432a9bf89b79da0" prot="private" static="no" mutable="no">
+        <type>double</type>
+        <definition>double Circle::r_</definition>
+        <argsstring></argsstring>
+        <name>r_</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="17" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="classCircle_1a846bd7f3ed5888cb56ebdda8530afa95" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Circle::Circle</definition>
+        <argsstring>(const Point &amp;center, const double &amp;r, const bool &amp;warp_space)</argsstring>
+        <name>Circle</name>
+        <param>
+          <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+          <declname>center</declname>
+        </param>
+        <param>
+          <type>const double &amp;</type>
+          <declname>r</declname>
+        </param>
+        <param>
+          <type>const bool &amp;</type>
+          <declname>warp_space</declname>
+        </param>
+        <briefdescription>
+<para>Construct a new <ref refid="classCircle" kindref="compound">Circle</ref>:: <ref refid="classCircle" kindref="compound">Circle</ref> object. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>center</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A <ref refid="classPoint" kindref="compound">Point(x, y)</ref> which is the center of the circle </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>r</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The radius of the circle in units </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>warp_space</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>A boolean value to indicate whether this shape is a special type or not</para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+For this constructor to be called, the user must type in <ref refid="classCircle" kindref="compound">Circle</ref> as the Shape Name </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="28" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="3" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ae3f30436e645d73e368e8ee55f8d1650" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>Circle::~Circle</definition>
+        <argsstring>()</argsstring>
+        <name>~Circle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="29" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1ad0b89f7f448988dc03bd1c06e4ca8648" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::string</type>
+        <definition>std::string Circle::to_String</definition>
+        <argsstring>() override</argsstring>
+        <name>to_String</name>
+        <reimplements refid="classShape2D_1a5faf0eb79a8888bfcf464d8263e6f9c0">to_String</reimplements>
+        <briefdescription>
+<para>A function that returns all the attribute of the <ref refid="classCircle" kindref="compound">Circle</ref> as a string. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::string </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="36" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="13" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a582c07962124bdf2d31276b5b31a6d8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>double</type>
+        <definition>double Circle::compute_Area</definition>
+        <argsstring>() override</argsstring>
+        <name>compute_Area</name>
+        <reimplements refid="classShape2D_1aecc2a1ad58aa7cbb1c0b77f886ac2748">compute_Area</reimplements>
+        <briefdescription>
+<para>Calculates the area of the circle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>double </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="43" column="8" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a16fdd2eefa910dabb700a1ee3334f14e" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Circle::is_Point_In_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const override</argsstring>
+        <name>is_Point_In_Shape</name>
+        <reimplements refid="classShape2D_1aa12cf337c1d3c383a20d6894fa3b0e50">is_Point_In_Shape</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Given a coordinate (x, y), functions return true if point is within shape (not on the perimeter) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="53" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="31" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1afceae3553d3711850f17d96ccf909392" prot="public" static="no" const="yes" explicit="no" inline="no" virt="virtual">
+        <type>bool</type>
+        <definition>bool Circle::is_Point_On_Shape</definition>
+        <argsstring>(const int &amp;x, const int &amp;y) const override</argsstring>
+        <name>is_Point_On_Shape</name>
+        <reimplements refid="classShape2D_1a65c202854d606f3e8e7c1651a55c5011">is_Point_On_Shape</reimplements>
+        <param>
+          <type>const int &amp;</type>
+          <declname>x</declname>
+        </param>
+        <param>
+          <type>const int &amp;</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+<para>Given a coordinate (x, y), functions return ture if point is on the perimeter and not the vertices. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>x</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>X coordinate </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>y</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Y coordinate </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>true </para>
+</simplesect>
+<simplesect kind="return"><para>false </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="63" column="6" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="39" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a1beee16aa785bee1af18a0799cb5b744" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Circle::get_All_Point_In_Shape</definition>
+        <argsstring>() override</argsstring>
+        <name>get_All_Point_In_Shape</name>
+        <reimplements refid="classShape2D_1a2e391ae2f92e6b3686c6bafbc2d5bcc2">get_All_Point_In_Shape</reimplements>
+        <briefdescription>
+<para>Get the All <ref refid="classPoint" kindref="compound">Point</ref> In <ref refid="classCircle" kindref="compound">Circle</ref> object using is_Point_In_Shape method. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::vector&lt;Point&gt; that contains all the points within Shape </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="70" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="50" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a5a6b4b594946596226cea13173664b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type>std::vector&lt; <ref refid="classPoint" kindref="compound">Point</ref> &gt;</type>
+        <definition>std::vector&lt; Point &gt; Circle::get_All_Point_On_Shape</definition>
+        <argsstring>() override</argsstring>
+        <name>get_All_Point_On_Shape</name>
+        <reimplements refid="classShape2D_1a40137c7300edef4b7995ef69fff0cf70">get_All_Point_On_Shape</reimplements>
+        <briefdescription>
+<para>Get the All <ref refid="classPoint" kindref="compound">Point</ref> On the circle perimeter, in this case, the North, West, South, East <ref refid="classPoint" kindref="compound">Point</ref> from the center. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>std::vector&lt;Point&gt; that contains all point on the perimeter </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="77" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="64" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1afc3f3fa3be213b3836638d2f49b70a4f" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const double &amp;</type>
+        <definition>const double &amp; Circle::get_Radius</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Radius</name>
+        <briefdescription>
+<para>Get the Radius of the circle. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>radius of circle </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="84" column="14" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="79" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="classCircle_1a6628441738586792064935b7ed718966" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>const <ref refid="classPoint" kindref="compound">Point</ref> &amp;</type>
+        <definition>const Point &amp; Circle::get_Center</definition>
+        <argsstring>() const</argsstring>
+        <name>get_Center</name>
+        <briefdescription>
+<para>Get the Center of the circle in coordinate (x, y) </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="classPoint" kindref="compound">Point</ref> object (x, y) with the coordinate of the circle Center </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="91" column="13" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/src/Circle.cpp" bodystart="78" bodyend="78"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A class which represents a circle, containing the radius, and a center <ref refid="classPoint" kindref="compound">Point</ref>. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+      <node id="1">
+        <label>Circle</label>
+        <link refid="classCircle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Shape2D</label>
+        <link refid="classShape2D"/>
+      </node>
+      <node id="1">
+        <label>Circle</label>
+        <link refid="classCircle"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" line="14" column="1" bodyfile="/home/yosua/Projects/Shapes2D/Shapes2D-CPP/include/Circle.h" bodystart="13" bodyend="92"/>
+    <listofallmembers>
+      <member refid="classShape2D_1ab06720bbaa1a78dd8da98ea0899fe6db" prot="protected" virt="non-virtual"><scope>Circle</scope><name>area_</name></member>
+      <member refid="classCircle_1a48df023bd15aa6a29a397b70733d0da9" prot="private" virt="non-virtual"><scope>Circle</scope><name>center_</name></member>
+      <member refid="classCircle_1a846bd7f3ed5888cb56ebdda8530afa95" prot="public" virt="non-virtual"><scope>Circle</scope><name>Circle</name></member>
+      <member refid="classCircle_1a582c07962124bdf2d31276b5b31a6d8e" prot="public" virt="virtual"><scope>Circle</scope><name>compute_Area</name></member>
+      <member refid="classShape2D_1a0c6678a0a167c049475a42af34102133" prot="protected" virt="non-virtual"><scope>Circle</scope><name>contain_warp_space_</name></member>
+      <member refid="classCircle_1a1beee16aa785bee1af18a0799cb5b744" prot="public" virt="virtual"><scope>Circle</scope><name>get_All_Point_In_Shape</name></member>
+      <member refid="classCircle_1a5a6b4b594946596226cea13173664b52" prot="public" virt="virtual"><scope>Circle</scope><name>get_All_Point_On_Shape</name></member>
+      <member refid="classShape2D_1a9840d085b9611368d448586eef575e79" prot="public" virt="non-virtual"><scope>Circle</scope><name>get_Area</name></member>
+      <member refid="classCircle_1a6628441738586792064935b7ed718966" prot="public" virt="non-virtual"><scope>Circle</scope><name>get_Center</name></member>
+      <member refid="classShape2D_1a266f289038ce2773e3b07e1f65a3554f" prot="public" virt="non-virtual"><scope>Circle</scope><name>get_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1afec5ff2e6fdded2cce71ac6055aaf8c3" prot="public" virt="non-virtual"><scope>Circle</scope><name>get_Name</name></member>
+      <member refid="classShape2D_1a235032fe16ff6fb1d656f4c2a46eb92b" prot="public" virt="non-virtual"><scope>Circle</scope><name>get_Points_On_Perimeter</name></member>
+      <member refid="classShape2D_1a7641fc1234a362eed8636f8237f37af4" prot="public" virt="non-virtual"><scope>Circle</scope><name>get_Points_Within_Shape</name></member>
+      <member refid="classCircle_1afc3f3fa3be213b3836638d2f49b70a4f" prot="public" virt="non-virtual"><scope>Circle</scope><name>get_Radius</name></member>
+      <member refid="classCircle_1a16fdd2eefa910dabb700a1ee3334f14e" prot="public" virt="virtual"><scope>Circle</scope><name>is_Point_In_Shape</name></member>
+      <member refid="classCircle_1afceae3553d3711850f17d96ccf909392" prot="public" virt="virtual"><scope>Circle</scope><name>is_Point_On_Shape</name></member>
+      <member refid="classShape2D_1ae8fda04a211cc4bd942f223ac029cf77" prot="protected" virt="non-virtual"><scope>Circle</scope><name>name_</name></member>
+      <member refid="classShape2D_1a15f89a34166c3d2ce43b0635f07185e4" prot="protected" virt="non-virtual"><scope>Circle</scope><name>points_on_perimeter_</name></member>
+      <member refid="classShape2D_1a0a2936d7dbb45e83b454fccc4263126d" prot="protected" virt="non-virtual"><scope>Circle</scope><name>points_within_shape_</name></member>
+      <member refid="classCircle_1aec2ebe62263c1d340432a9bf89b79da0" prot="private" virt="non-virtual"><scope>Circle</scope><name>r_</name></member>
+      <member refid="classShape2D_1a0241e6cbd093607ad412ae080f511727" prot="public" virt="non-virtual"><scope>Circle</scope><name>set_Contain_Warp_Space</name></member>
+      <member refid="classShape2D_1a21d194e4d1f3df3d3933cdf70c36eba2" prot="public" virt="non-virtual"><scope>Circle</scope><name>set_Name</name></member>
+      <member refid="classShape2D_1ab87994852407650ad4766c1ecb13c070" prot="public" virt="non-virtual"><scope>Circle</scope><name>Shape2D</name></member>
+      <member refid="classCircle_1ad0b89f7f448988dc03bd1c06e4ca8648" prot="public" virt="virtual"><scope>Circle</scope><name>to_String</name></member>
+      <member refid="classCircle_1ae3f30436e645d73e368e8ee55f8d1650" prot="public" virt="non-virtual"><scope>Circle</scope><name>~Circle</name></member>
+      <member refid="classShape2D_1a43df0afde2f1d356dee5b24f946a33fe" prot="public" virt="virtual"><scope>Circle</scope><name>~Shape2D</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
