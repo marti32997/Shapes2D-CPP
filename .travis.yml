@@ -10,6 +10,7 @@ addons:
       - cmake
 
 script:
+  - ls
   - cmake . -B build
   - cmake --build build -- -j2
   - cd build/tests
