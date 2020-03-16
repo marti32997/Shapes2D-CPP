@@ -12,5 +12,5 @@ add_executable(test_all
 target_link_libraries(test_all Catch2::Catch2 Circle Square Rectangle Cross)
 
 include (CTest)
-include (Catch)
+include (${CMAKE_BINARY_DIR}/_deps/catch2-src/contrib/Catch.cmake)
 catch_discover_tests(test_all)

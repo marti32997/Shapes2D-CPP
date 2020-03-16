@@ -2,6 +2,10 @@ language: cpp
 compiler: gcc
 dist: bionic
 
+install:
+  - sudo snap install cmake
+  - cmake --version
+
 addons:
   apt:
     sources:
@@ -10,8 +14,7 @@ addons:
       - cmake
 
 script:
-  - mkdir build && cd build
-  - cmake ..
-  - make
-  - cd tests
+  - cmake . -B build
+  - cmake --build build -- -j2
+  - cd build/tests
   - CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 ./test_all

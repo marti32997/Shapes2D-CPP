@@ -2,24 +2,21 @@ name: C/C++ CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v2
-    - name: Make build directory && get inside it
-      run: mkdir build && cd build
-    - name: Run cmake ..
-      run: cmake ..
-    - name: make
-      run: make 
-    - name: cd tests
-      run: cd tests
-    - name: Run CTests
-      run: CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 ./test_all
+      - uses: actions/checkout@v2
+      - name: Generate cmake files
+        run: cmake . -B build
+      - name: Build project with cmake
+        run: cmake --build build -- -j2
+      - name: cd build/tests
+        run: cd build/tests
+      - name: Run CTests
+        run: CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 ./test_all
