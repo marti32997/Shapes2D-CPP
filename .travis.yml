@@ -2,10 +2,6 @@ language: cpp
 compiler: gcc
 dist: bionic
 
-install:
-  - sudo snap install cmake
-  - cmake --version
-
 addons:
   apt:
     sources:
