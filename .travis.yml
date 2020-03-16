@@ -10,8 +10,8 @@ addons:
       - cmake
 
 script:
+  - cmake .
+  - cmake --build . -- -j2
   - ls
-  - cmake . -B build
-  - cmake --build build -- -j2
-  - cd build/tests
+  - cd tests
   - CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 ./test_all
