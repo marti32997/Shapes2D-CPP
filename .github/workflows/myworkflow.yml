@@ -12,6 +12,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
+      - name: ls
+        run: ls
       - name: Generate cmake files
         run: cmake . -B build
       - name: Build project with cmake
