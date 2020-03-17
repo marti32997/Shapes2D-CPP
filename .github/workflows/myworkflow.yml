@@ -16,7 +16,7 @@ jobs:
         run: cmake . -B build
       - name: Build project with cmake
         run: cmake --build build -- -j2
-      - name: cd build/tests
-        run: cd build/tests
-      - name: Run CTests
-        run: CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 ./test_all
+      - name: cd build
+        run: cd build
+      - name: Run Tests
+        run: make test

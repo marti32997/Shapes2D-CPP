@@ -6,4 +6,3 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(Catch2)
-LIST(APPEND)
