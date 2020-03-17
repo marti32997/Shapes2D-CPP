@@ -5,4 +5,12 @@ FetchContent_Declare(
 	UPDATE_DISCONNECTED ON
 )
 
-FetchContent_MakeAvailable(Catch2)
+if(${CMAKE_VERSION} VERSION_GREATER_EQUAL "3.14.0")
+	FetchContent_MakeAvailable(Catch2)
+endif()
+
+FetchContent_GetProperties(Catch2)
+if(NOT catch2_POPULATED)
+	FetchContent_Populate(Catch2)
+	add_subdirectory(${catch2_SOURCE_DIR} ${catch2_BINARY_DIR})
+endif()
