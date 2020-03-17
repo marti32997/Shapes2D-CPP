@@ -77,8 +77,10 @@ add_executable(csci251_a2.exe
 	Cross
 )
 
-setup_target_for_coverage_lcov(
-	NAME csci251_a2_coverage
-	EXECUTABLE csci251_a2.exe
-	DEPENDENCIES csci251_a2.exe
-)
+if(CODE_COVERAGE AND CMAKE_CXX_COMPILER_ID MATCHES "GNU|CLANG")
+	setup_target_for_coverage_lcov(
+		NAME csci251_a2_coverage
+		EXECUTABLE csci251_a2.exe
+		DEPENDENCIES csci251_a2.exe
+	)
+endif()

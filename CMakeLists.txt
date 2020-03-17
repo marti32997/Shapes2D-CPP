@@ -3,7 +3,11 @@ project(CSCI251_A2)
 
 # add_compile_options(--coverage)
 list(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/CMake")
-include(CodeCoverage)
+
+option(CODE_COVERAGE "Enable Code Coverage" OFF)
+if(CODE_COVERAGE AND CMAKE_CXX_COMPILER_ID MATCHES "GNU|CLANG")
+	include(CodeCoverage)
+endif()
 
 include_directories(include)
 add_subdirectory(src)
