@@ -22,22 +22,22 @@ add_library(Cross
 	Cross.cpp
 )
 
-target_link_libraries(Circle
+target_link_libraries(Circle PUBLIC
 	Shape2D
 	Point
 )
 
-target_link_libraries(Square
+target_link_libraries(Square PUBLIC
 	Shape2D
 	Point
 )
 
-target_link_libraries(Rectangle
+target_link_libraries(Rectangle PUBLIC
 	Shape2D
 	Point
 )
 
-target_link_libraries(Cross
+target_link_libraries(Cross PUBLIC
 	Shape2D
 	Point
 )
@@ -75,4 +75,10 @@ add_executable(csci251_a2.exe
 	Square
 	Rectangle
 	Cross
+)
+
+setup_target_for_coverage_lcov(
+	NAME csci251_a2_coverage
+	EXECUTABLE csci251_a2.exe
+	DEPENDENCIES csci251_a2.exe
 )

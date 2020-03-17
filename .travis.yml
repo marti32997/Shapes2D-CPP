@@ -8,6 +8,7 @@ addons:
       - ubuntu-toolchain-r-test
     packages:
       - cmake
+      - lcov
 
 script:
   - cmake .
@@ -15,3 +16,11 @@ script:
   - ls
   - cd tests
   - CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 ./test_all
+
+after_success:
+  # Create lcov report
+  - lcov --capture --directory . --output-file coverage.info
+  - lcov --remove coverage.info '/usr/*' --output-file coverage.info # filter system-files
+  - lcov --list coverage.info # debug info
+  # Uploading report to CodeCov
+  - bash <(curl -s https://codecov.io/bash) -f coverage.info || echo "Codecov did not collect coverage reports"
