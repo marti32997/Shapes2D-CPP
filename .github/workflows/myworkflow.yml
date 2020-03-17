@@ -18,11 +18,7 @@ jobs:
         run: cmake . -B build
       - name: Build project with cmake
         run: cmake --build build -- -j2
-      - name: cd build
-        run: cd build
-      - name: know the directory
-        run: ls
-      - name: know the tests directory
-        run: ls tests/
-      - name: Run Tests
-        run: make test
+      - name: cd build and run the Tests
+        run: |
+          cd build
+          CTEST_OUTPUT_ON_FAILURE=1 ctest -j2 tests/test_all
