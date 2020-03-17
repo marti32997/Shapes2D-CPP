@@ -18,5 +18,9 @@ jobs:
         run: cmake --build build -- -j2
       - name: cd build
         run: cd build
+      - name: know the directory
+        run: ls
+      - name: know the tests directory
+        run: ls tests/
       - name: Run Tests
         run: make test
